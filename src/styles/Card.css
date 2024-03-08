@@ -1,0 +1,109 @@
+.card {
+    width: 250px;
+    height: 350px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    background-color: #FFFF00;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.service-description h3 {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #656e80;
+}
+
+.service-description p {
+    text-align: center;
+    color: #656e80;
+    margin: 30px;
+}
+
+.service-description h4 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2252ff;
+    cursor: pointer; 
+}
+
+.service-description h4:hover {
+    color: #363738; 
+}
+
+@media screen and (max-width:600px) {
+    
+    .card {
+        width: 200px; 
+        height: 300px; 
+        margin: 5px; 
+    }
+
+    .image img {
+        width: 30px; 
+        height: 30px; 
+        margin-top: 10px; 
+    }
+
+    .service-description h3 {
+        font-size: 16px; 
+        margin-top: 10px; 
+    }
+
+    .service-description p {
+        font-size: 12px; 
+        margin: 20px; 
+    }
+
+    .service-description h4 {
+        font-size: 14px; 
+        margin-top: 10px; 
+    }
+}
+    
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .card {
+        width: 250px; 
+        height: 350px; 
+        margin-right: 0;
+        margin-left: 0;    
+    }
+
+    .image img {
+        width: 40px; 
+        height: 40px; 
+        margin-top: 20px; 
+    }
+
+    .service-description h3 {
+        font-size: 18px; 
+        margin-top: 15px; 
+    }
+
+    .service-description p {
+        font-size: 14px; 
+        margin: 25px; 
+    }
+
+    .service-description h4 {
+        font-size: 16px; 
+        margin-top: 15px; 
+    }
+}

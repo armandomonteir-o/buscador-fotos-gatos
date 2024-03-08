@@ -1,0 +1,9 @@
+.container {
+    padding-top: 100px; 
+    background-image: url('../assets/v996-010.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
