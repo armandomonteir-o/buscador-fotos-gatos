@@ -8,7 +8,7 @@
 
 ```
 git clone https://github.com/armandomonteir-o/buscador-fotos-gatos.git
-
+```
 ### Passo 2: Instalar Dependências
 1. Após clonar o repositório, navegue até o diretório do projeto usando o comando `cd`.
 2. Execute o comando `npm install` para instalar todas as dependências do projeto.
@@ -22,4 +22,3 @@ git clone https://github.com/armandomonteir-o/buscador-fotos-gatos.git
 2. Clique no botão de pesquisa para iniciar a busca.
 3. Após realizar a pesquisa, a aplicação irá exibir os resultados na forma de imagens de gatos correspondentes à raça digitada.
 4. Além da pesquisa de fotos de gatos, a aplicação também possui outras funcionalidades, como a seção "Serviços", onde você pode encontrar informações adicionais sobre os serviços oferecidos.
-```
